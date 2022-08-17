@@ -50,6 +50,10 @@ for(let i=0;i<arr.length;i++){
         count++
         }
     }
+  
+   if(count>arr[i]){
+        i=i+count-1;
+    }
     
     if(count===arr[i]){
         lucky.push(count);
